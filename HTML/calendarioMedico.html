@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP para el estilo de la pagina-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    
+    <!-- Los iconos tipo Solid de Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/solid.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+
+<!-- Nuestro css-->
+    <link rel="stylesheet" type="text/css" href="../CSS/calendarioMedico.css">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Calendario Medico</title>
+</head>
+<body>
+<header>
+  <div class="container">
+    <div class="flex">
+        <div class="logo">
+          LOGO
+        </div>
+
+        <nav class="menu">
+          <ul>
+             <li><a href="medicos.html">Médico</a></li>
+             <li>Tu Perfil</li>
+             <li>Tus Citas</li>
+          </ul>
+        </nav>
+        <select name="menu" class="select-menu">
+          <option value=""><a href="medicos.html">Médico</a></option>
+          <option value="">Tu Perfil</option>
+          <option value="">Tus Citas</option>
+      </select>
+    </div> 
+    
+  </div>
+ 
+</header>
+<br>
+<div class="principal">
+<h1 class="title">Calendario Médico</h1>
+<div class="calendar">
+    <div class="calendar__info">
+        <div class="calendar__prev" id="prev-month">&#9664;</div>
+        <div class="calendar__month" id="month"></div>
+        <div class="calendar__year" id="year"></div>
+        <div class="calendar__next" id="next-month">&#9654;</div>
+    </div>
+
+    <div class="calendar__week">
+        <div class="calendar__day calendar__item">Lunes</div>
+        <div class="calendar__day calendar__item">Martes</div>
+        <div class="calendar__day calendar__item">Miercoles</div>
+        <div class="calendar__day calendar__item">Jueves</div>
+        <div class="calendar__day calendar__item">Viernes</div>
+        <div class="calendar__day calendar__item">Sábado</div>
+        <div class="calendar__day calendar__item">Domigo</div>
+    </div>
+
+    <div class="calendar__dates" id="dates"></div>
+</div>
+</div>
+<script src="../js/calendario.js"></script>
+</body>
+</html>
