@@ -31,6 +31,7 @@ body{
     margin-top: -70px;
     margin-bottom: 5px;
     margin-right: 800px;
+    
 }
 
 .register .user-img img{
@@ -102,7 +103,7 @@ body{
 
 .register .btn {
     width: 100%;
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
 }
 

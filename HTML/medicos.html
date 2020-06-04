@@ -24,62 +24,63 @@
   <div class="container">
     <div class="flex">
         <div class="logo">
-          LOGO
+          <img src="../IMAGENES/logo1.jpeg" class="rounded float-left" alt="Logo">
         </div>
 
         <nav class="menu">
           <ul>
-             <li><a href="medicos.html">Médico</a></li>
+             <li><a href="medicos.html">Médicos</a></li>
              <li>Tu Perfil</li>
-             <li>Tus Citas</li>
+             <li><a href="tusCitas.html">Tus Citas</a></li>
           </ul>
         </nav>
         <select name="menu" class="select-menu">
-          <option value=""><a href="medicos.html">Médico</a></option>
+          <option value=""><a href="medicos.html">Médicos</a></option>
           <option value="">Tu Perfil</option>
-          <option value="">Tus Citas</option>
+          <option value=""><a href="tusCitas.html">Tus Citas</a></option>
       </select>
-    </div> 
-    
+    </div>     
   </div>
- 
 </header>
-
+<br>
 <main>
-<div class="principal">
-<H1>Médicos</H1>
-<input class="text" type="text" name="busqueda" id="busqueda" placeholder="Buscar...">
-<div>
-<table>
-<thead>
-    <tr>
-      <th>Identificación</th>
-      <th>Medico</th>
-      <th>Especialidad</th>
-      <th></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1</td>
-      <td>Charles </td>
-      <td>General</td>
-      <td><button class="btn btn-primary" type="submit"><a href="formularioCita.html"> Solicitar Cita </a></button></td>
-    </tr>
-<tr>
-      <td>2</td>
-      <td>Luis</td>
-      <td>Anestesiologo</td>
-      <td><button class="btn btn-primary" type="submit" ><a href="formularioCita.html"> Solicitar Cita </a></button></td>
-    </tr>
-<tr>
-      <td>1</td>
-      <td>Juan </td>
-      <td>Pediatria</td>
-      <td><button class="btn btn-primary" type="submit"><a href="formularioCita.html"> Solicitar Cita </a></button></td>
-    </tr>
-</tbody>
-</table>
-</div>
-</div>
+  <div class="principal">
+    <h1 class="title">Médicos</h1>
+    <br>
+      <input class="text" type="text" name="busqueda" id="busqueda" placeholder="Buscar...">
+  <div>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Médico</th>
+            <th>Especialidad</th>
+            <th></th>
+          </tr>
+       </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Charles </td>
+              <td>General</td>
+              <td><button class="btn btn-dark" type="submit"><a href="formularioCita.html"> Solicitar Cita </a></button></td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Luis</td>
+              <td>Anestesiologo</td>
+              <td><button class="btn btn-dark" type="submit" ><a href="formularioCita.html"> Solicitar Cita </a></button></td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Juan </td>
+              <td>Pediatria</td>
+              <td><button class="btn btn-dark" type="submit"><a href="formularioCita.html"> Solicitar Cita </a></button></td>
+            </tr>
+          </tbody>       
+      </table>
+    </div>
+  </div>
 </main>
+</body>
+</html>

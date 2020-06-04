@@ -23,9 +23,12 @@ body{
     border-radius: 4px;
     font-family: 'Calibri';
     color: black;
-   box-shadow: 7px 13px 37px #000;
    background: white;
 
+}
+
+.principal h1{
+  font-weight: lighter;
 }
 
  a{
@@ -55,22 +58,23 @@ a:hover{
    }
 }
 
+
 .logo{
   background: #44b5ed;;
   padding: 2rem;
   font-family: "calibri";
   color: black;
   font-size: 18px;
-  color: white;
+  color: white; 
+ 
 }
-
 
 header{
   background: #44b5ed;
 }
 
 .menu ul{
-    margin-top: 13px;
+    margin-top: 25px;
     padding-inline-start: 0;
     font-family: "calibri";
     color: black;

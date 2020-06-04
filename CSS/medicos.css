@@ -15,8 +15,8 @@ body{
 
 
 .principal{
-    width: 1000px;
-    
+    width: 1000px;  
+    box-shadow: 7px 13px 37px #000; 
     opacity: .95;
     padding: 30px;
     margin: auto;
@@ -24,21 +24,14 @@ body{
     border-radius: 4px;
     font-family: 'Calibri';
     color: black;
-    
+    background: white;
 
 }
 
-
-.principal h4{
-    font-size: 22px;
-    margin-bottom: 30px;
-    text-align: center
+.principal h1{
+  font-weight: lighter;
 }
 
-.principal h5{
-    font-size: 20px;
-    margin-bottom: 20px;
-}
 
 .text{
   background-color: #FFFFFF;
@@ -53,50 +46,12 @@ padding: 10px;
   
 }
 
-.textarea{
-  background: #24303c; 
-  border: 1px solid #1f53c5;;
-  border-radius:4px;
-  padding: 10px;
-  margin-bottom: 16px;
-  font-family: "calibri";
-  color: black;
-  font-size: 18px;
-  color: white;
-  padding-left: 20px;
-  width: 100%;
-  height: 150px;
-}
-
-
-.principal .form-group::before{
-  font-family: 'Font Awesome\ 5 Free';  
-  font-size: 32px;
-  position: absolute;
-  padding-left: 15px;
-}
-
-
-.principal p{
-    margin-top: 30px;
-    height: 60px;
-    text-align: center;
-    font-size: 18px;
-   
-}
-
-
-.principal .btn {
-    width: 100%;
-    font-size: 16px;
-    text-align: center;
-}
-
 table {
 margin-top: 20px;
-  font-family: arial, sans-serif;
+  font-family: "calibri";
   border-collapse: collapse;
   width: 100%;
+  font-size: 18px;
 }
 
 td, th {
@@ -148,7 +103,7 @@ header{
 }
 
 .menu ul{
-    margin-top: 13px;
+    margin-top: 25px;
     padding-inline-start: 0;
     font-family: "calibri";
     color: black;
