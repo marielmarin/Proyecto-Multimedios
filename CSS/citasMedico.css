@@ -1,0 +1,35 @@
+body{
+    background-image: url(../IMAGENES/fondo.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+    font: 16px/26px Arial, Arial , Arial;
+ }
+
+ .citasMedico{
+    width: 950px;
+    background: white;
+    padding: 70px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    box-shadow: 7px 7px 7px #000;
+    position: center;
+    opacity: .95;
+
+}
+
+.header-container {
+    background: white;
+   
+}
+
+.container
+{
+    float: right;
+}
+
